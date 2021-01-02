@@ -1,0 +1,103 @@
+html,
+body {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+#page-content {
+    flex: 1 0 auto;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        margin-left: -15rem;
+    }
+}
+
+.bg-main {
+    background-color: #FF6666;
+}
+
+.text-main {
+    color: #FF6666;
+}
+
+a {
+    color: #FF6666;
+}
+
+a:hover {
+    color: #FF4C4C;
+    text-decoration: none;
+}
+
+.btn-main {
+    background-color: #FF6666;
+    color: #FFFFFF;
+}
+
+.btn-main:hover {
+    background-color: #FF4C4C;
+    color: #FFFFFF;
+}
+
+.badge-main {
+    background-color: #FF6666;
+    color: #FFFFFF;
+}
+
+.scroll-to-top {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    display: none;
+    width: 50px;
+    height: 45px;
+    text-align: center;
+    color: rgba(33, 33, 33, 0.7);
+    line-height: 45px;
+}
+
+.scroll-to-top:focus,
+.scroll-to-top:hover {
+    color: #212121;
+}

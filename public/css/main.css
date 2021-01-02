@@ -1,0 +1,83 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Prompt', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#page-content {
+    flex: 1 0 auto;
+}
+
+#sticky-footer {
+    flex-shrink: none;
+}
+
+.masthead {
+    height: 65vh;
+    min-height: 350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact-icon {
+    background-color: #FCFCFC;
+    color: #FF6666;
+    height: 7rem;
+    width: 7rem;
+    display: block;
+    line-height: 7.5rem;
+    font-size: 2.25rem;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.bg-main {
+    background-color: #FF6666;
+}
+
+.text-main {
+    color: #FF6666;
+}
+
+a {
+    color: #FF6666;
+}
+
+a:hover {
+    color: #FF4C4C;
+    text-decoration: none;
+}
+
+.btn-main {
+    background-color: #FF6666;
+    color: #FFFFFF;
+}
+
+.btn-main:hover {
+    background-color: #FF4C4C;
+    color: #FFFFFF;
+}
+
+.badge-main {
+    background-color: #FF6666;
+    color: #FFFFFF;
+}
+
+.scroll-to-top {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    display: none;
+    width: 50px;
+    height: 45px;
+    text-align: center;
+    color: rgba(33, 33, 33, 0.7);
+    line-height: 45px;
+}
+
+.scroll-to-top:focus,
+.scroll-to-top:hover {
+    color: #212121;
+}
